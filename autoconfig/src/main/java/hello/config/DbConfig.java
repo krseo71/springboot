@@ -11,7 +11,7 @@ import org.springframework.transaction.TransactionManager;
 import javax.sql.DataSource;
 
 @Slf4j
-@Configuration
+//@Configuration //bean 등록 제거
 public class DbConfig {
 
     @Bean

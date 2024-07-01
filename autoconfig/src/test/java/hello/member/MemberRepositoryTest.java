@@ -26,20 +26,4 @@ class MemberRepositoryTest {
         assertThat(findMember.getName()).isEqualTo(member.getName());
 
     }
-
-    @Test
-    void initTable() {
-    }
-
-    @Test
-    void save() {
-    }
-
-    @Test
-    void find() {
-    }
-
-    @Test
-    void findAll() {
-    }
 }
